@@ -1,0 +1,78 @@
+body{
+  background-color: #efefef;
+}
+.form-heading { color:#fff; font-size:23px;}
+.panel3 h1{color: #0571ce;font-size:28px; margin: -38px 0px 19px 0px;}
+/*.panel1 p { color:#777777; font-size:14px; margin-bottom:30px; line-height:24px;}*/
+
+.sign-form .sign-control {
+background: #f7f7f7 none repeat scroll 0 0;
+border: 1px solid #d4d4d4;
+border-radius: 4px;
+font-size: 14px;
+height: 40px;
+line-height: 50px;
+width: 250px;
+padding-left: 10px;
+}
+@keyframes move
+{
+  from{ top: 35px; opacity: 0}
+  to{ top: 50px; opacity: 1}
+}
+.main2-div{
+  background: #ffffff none repeat scroll 0 0;
+  box-shadow: 0px 0px 10px 4px #d0d0d0;
+  border-radius: 2px;
+  margin: auto;
+  margin-top: auto;
+  margin-top: 10px;
+  width: 600px;
+  padding: 60px 30px 28px 30px;
+  animation-name: move;
+  animation-duration: 0.5s;
+  animation-direction: normal;
+animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+.gioitinh {
+    margin-left: -93px;
+    margin-top: 25px;
+}
+/*.main-div:hover {
+    margin-top: 100px;
+    opacity: 1;
+}*/
+.sign-form .sign-group {
+  margin-bottom: 15px;
+}
+
+.sign-form{
+  text-align:center;
+  margin: auto;
+}
+
+.sign-form  .btn.btn-primary {
+  font-size: 14px;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 4px;
+  opacity: 0.9;
+}
+.sign-form .btn.btn-primary:hover {
+    opacity: 1;
+}
+.botto-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin: auto;
+}
+.form-control:invalid {
+/*border: 1px solid red;
+border-radius: 4px;*/
+}
+.form-control:valid{
+/*border: 1px solid #d4d4d4;
+border-radius: 4px;*/
+}

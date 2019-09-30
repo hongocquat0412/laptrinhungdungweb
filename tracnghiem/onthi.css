@@ -1,0 +1,158 @@
+*{}
+
+.col-xs-8.col-sm-8.col-md-8.col-lg-8.text-center {
+    padding-left: 30px;
+    margin: 11px 0px 11px 28px;
+}
+
+.col-xs-12.col-sm-12.col-md-12.col-lg-12.thoigian {
+    padding-bottom: 15px;
+    margin-top: 10px;
+    padding-right: 66px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.col-xs-2.col-sm-2.col-md-2.col-lg-2.span1 {
+    padding-top: 7px;
+    width: 130px;
+}
+
+.col-xs-4.col-sm-4.col-md-4.col-lg-4.chon {
+    padding: 4px 0px 10px 0px;
+    margin-top: -14px;
+}
+
+.col-xs-4.col-sm-4.col-md-4.col-lg-4.dh {
+	margin: 50px 0px -12px 244px;
+	padding-bottom: 10px;
+	width: 500px;
+	font-weight: bold;
+	color: red;
+	font-size: 30px;
+}
+
+.col-xs-4.col-sm-4.col-md-4.col-lg-4.dh.tg {
+    margin-left: -305px;
+    color: blue;
+}
+
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-top: 4px;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 7px;
+	left: 7px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: white;
+}
+
+tr.cauhoi {
+    font-weight: bold;
+}
+tr.phan {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+tr.thuchanh {
+    font-weight: bold;
+}
+td.de {
+    padding-left: 20px;
+}
+table.on{
+	margin-left: 10px;
+}
+
+td.cautraloi {
+    padding-left: 45px;
+}
+
+button.btn.btn-primary.nut {
+    margin-bottom: 40px;
+    margin-top: 6px;
+    margin-left: 450px;
+}
+
+.ketqua {
+    margin: 11px 0px 30px 10px;
+}
+span.diem {
+    color: red;
+}
+span.cau {
+    font-weight: bold;
+}
+
+span.cau.thongbao {
+    color: blue;
+    font-size: 16px;
+}
+.row.tg {
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+span.a {
+    float: left;
+    margin-right: 10px;
+}
+.nopbai {
+    margin-top: 6px;
+    margin-left: 20px;
+}
